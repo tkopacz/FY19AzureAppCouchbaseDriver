@@ -1,0 +1,81 @@
+Connecting...
+2019-06-21T18:34:27  Welcome, you are now connected to log-streaming service.
+2019-06-21 11:59:40.640 INFO  - Starting container for site
+2019-06-21 11:59:40.640 INFO  - docker run -d -p 34850:8080 --name pltkw3fy19couchbase_0 -e WEBSITE_NODE_DEFAULT_VERSION=8.9 -e APPSETTING_WEBSITE_NODE_DEFAULT_VERSION=8.9 -e WEBSITE_SITE_NAME=pltkw3fy19Couchbase -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=pltkw3fy19couchbase.azurewebsites.net -e WEBSITE_INSTANCE_ID=9161ab4fed40c19864f7d0b72200c3c5bb6ee3cb48580283d8c1a6a6eaf9a12c appsvc/node:8.9_1903081107
+2019-06-21 11:59:40.640 INFO  - Logging is not enabled for this container.Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-21 11:59:41.420 INFO  - Initiating warmup request to container pltkw3fy19couchbase_0 for site pltkw3fy19couchbase
+2019-06-21 11:59:44.474 INFO  - Container pltkw3fy19couchbase_0 for site pltkw3fy19couchbase initialized successfully and is ready to serve requests.
+2019-06-21 18:34:18.409 INFO  - Recycling container because of HttpLoggingEnabledChange and httpLoggingEnabled = True
+2019-06-21 18:34:18.419 INFO  - Starting container for site
+2019-06-21 18:34:18.419 INFO  - docker run -d -p 27698:8080 --name pltkw3fy19couchbase_1 -e WEBSITE_NODE_DEFAULT_VERSION=8.9 -e APPSETTING_WEBSITE_NODE_DEFAULT_VERSION=8.9 -e WEBSITE_SITE_NAME=pltkw3fy19Couchbase -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=pltkw3fy19couchbase.azurewebsites.net -e WEBSITE_INSTANCE_ID=9161ab4fed40c19864f7d0b72200c3c5bb6ee3cb48580283d8c1a6a6eaf9a12c -e HTTP_LOGGING_ENABLED=1 appsvc/node:8.9_1903081107
+2019-06-21 18:34:19.347 INFO  - Initiating warmup request to container pltkw3fy19couchbase_1 for site pltkw3fy19couchbase
+2019-06-21 18:34:32.725 INFO  - Container pltkw3fy19couchbase_1 for site pltkw3fy19couchbase initialized successfully and is ready to serve requests.
+2019-06-21T18:34:19.432408420Z   _____
+2019-06-21T18:34:19.432447620Z   /  _  \ __________ _________   ____
+2019-06-21T18:34:19.432453020Z  /  /_\  \___   /  |  \_  __ \_/ __ \
+2019-06-21T18:34:19.432456820Z /    |    \/    /|  |  /|  | \/\  ___/
+2019-06-21T18:34:19.432460420Z \____|__  /_____ \____/ |__|    \___  >
+2019-06-21T18:34:19.432464320Z         \/      \/                  \/
+2019-06-21T18:34:19.432468020Z A P P   S E R V I C E   O N   L I N U X
+2019-06-21T18:34:19.432471520Z
+2019-06-21T18:34:19.432474821Z Documentation: http://aka.ms/webapp-linux
+2019-06-21T18:34:19.432478421Z NodeJS quickstart: https://aka.ms/node-qs
+2019-06-21T18:34:19.432481921Z
+2019-06-21T18:34:19.835135669Z Starting OpenBSD Secure Shell server: sshd.
+2019-06-21T18:34:20.186625319Z Generating app startup command
+2019-06-21T18:34:20.274673832Z No startup command entered, but found /home/site/wwwroot/index.js
+2019-06-21T18:34:20.274736933Z Running pm2 start /home/site/wwwroot/index.js --no-daemon
+2019-06-21T18:34:21.843102180Z
+2019-06-21T18:34:21.843137680Z                         -------------
+2019-06-21T18:34:21.843144080Z
+2019-06-21T18:34:21.843148180Z __/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+2019-06-21T18:34:21.843153980Z  _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+2019-06-21T18:34:21.843159080Z   _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+2019-06-21T18:34:21.843163980Z    _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+2019-06-21T18:34:21.843169280Z     _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+2019-06-21T18:34:21.843173980Z      _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+2019-06-21T18:34:21.843178580Z       _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+2019-06-21T18:34:21.843183080Z        _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+2019-06-21T18:34:21.843187680Z         _\///______________\///______________\///__\///////////////__
+2019-06-21T18:34:21.843192080Z
+2019-06-21T18:34:21.843195980Z
+2019-06-21T18:34:21.843199880Z                           Runtime Edition
+2019-06-21T18:34:21.843203880Z
+2019-06-21T18:34:21.843207780Z         PM2 is a Production Process Manager for Node.js applications
+2019-06-21T18:34:21.843211880Z                      with a built-in Load Balancer.
+2019-06-21T18:34:21.843215980Z
+2019-06-21T18:34:21.843220080Z                 Start and Daemonize any application:
+2019-06-21T18:34:21.843224180Z                 $ pm2 start app.js
+2019-06-21T18:34:21.843235480Z
+2019-06-21T18:34:21.843239880Z                 Load Balance 4 instances of api.js:
+2019-06-21T18:34:21.843243781Z                 $ pm2 start api.js -i 4
+2019-06-21T18:34:21.843247781Z
+2019-06-21T18:34:21.843251581Z                 Monitor in production:
+2019-06-21T18:34:21.843255481Z                 $ pm2 monitor
+2019-06-21T18:34:21.843259481Z
+2019-06-21T18:34:21.843263081Z                 Make pm2 auto-boot at server restart:
+2019-06-21T18:34:21.843267081Z                 $ pm2 startup
+2019-06-21T18:34:21.843270881Z
+2019-06-21T18:34:21.843274581Z                 To go further checkout:
+2019-06-21T18:34:21.843278581Z                 http://pm2.io/
+2019-06-21T18:34:21.843282481Z
+2019-06-21T18:34:21.843286181Z
+2019-06-21T18:34:21.843289981Z                         -------------
+2019-06-21T18:34:21.843293781Z
+2019-06-21T18:34:21.868428727Z pm2 launched in no-daemon mode (you can add DEBUG="*" env variable to get more messages)
+2019-06-21T18:34:22.802276374Z 2019-06-21T18:34:22: PM2 log: Launching in no daemon mode
+2019-06-21T18:34:23.031951413Z 2019-06-21T18:34:23: PM2 log: [PM2] Starting /home/site/wwwroot/index.js in fork_mode (1 instance)
+2019-06-21T18:34:23.042460775Z 2019-06-21T18:34:23: PM2 log: App [index:0] starting in -fork mode-
+2019-06-21T18:34:23.139849143Z 2019-06-21T18:34:23: PM2 log: App [index:0] online
+2019-06-21T18:34:23.155229732Z 2019-06-21T18:34:23: PM2 log: [PM2] Done.
+2019-06-21T18:34:23.292264531Z 2019-06-21T18:34:23: PM2 log: ┌──────────┬────┬─────────┬──────┬─────┬────────┬─────────┬────────┬─────┬───────────┬──────┬──────────┐
+2019-06-21T18:34:23.292299332Z │ App name │ id │ version │ mode │ pid │ status │ restart │ uptime │ cpu │ mem       │ user │ watching │
+2019-06-21T18:34:23.292305332Z ├──────────┼────┼─────────┼──────┼─────┼────────┼─────────┼────────┼─────┼───────────┼──────┼──────────┤
+2019-06-21T18:34:23.292310432Z │ index    │ 0  │ 1.0.0   │ fork │ 46  │ online │ 0       │ 0s     │ 0%  │ 24.8 MB   │ root │ disabled │
+2019-06-21T18:34:23.292315132Z └──────────┴────┴─────────┴──────┴─────┴────────┴─────────┴────────┴─────┴───────────┴──────┴──────────┘
+2019-06-21T18:34:23.303051694Z 2019-06-21T18:34:23: PM2 log:  Use `pm2 show <id|name>` to get more details about an app
+2019-06-21T18:34:23.338503701Z 2019-06-21T18:34:23: PM2 log: [--no-daemon] Continue to stream logs
+2019-06-21T18:34:23.342534925Z 2019-06-21T18:34:23: PM2 log: [--no-daemon] Exit on target PM2 exit pid=1
+2019-06-21T18:34:32.290543711Z 18:34:32 0|index  | Server running at http://localhost:8080
+2019-06-21T18:34:36  Startup Request, url: /Default.cshtml, method: GET, type: request, pid: 58,1,6, SCM_SKIP_SSL_VALIDATION: 0, SCM_BIN_PATH: /opt/Kudu/bin, ScmType: None
+
