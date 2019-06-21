@@ -31,7 +31,7 @@ npm install --save couchbase
 
 Select Publish: Code + Node 8.9 (or LTS as per 2019-06-21)
 
-![2019-06-21_20-10-45](Y:\GIT_TKOPACZ\FY19AzureAppCouchbaseDriver\2019-06-21_20-10-45.png)
+![2019-06-21_20-10-45](2019-06-21_20-10-45.png)
 
 
 
