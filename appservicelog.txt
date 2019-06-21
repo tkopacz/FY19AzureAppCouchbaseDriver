@@ -1,3 +1,23 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2019_06_21_RD28187832BCAF_docker.log
+2019-06-21 11:59:40.640 INFO  - Starting container for site
+2019-06-21 11:59:40.640 INFO  - docker run -d -p 34850:8080 --name pltkw3fy19couchbase_0 -e WEBSITE_NODE_DEFAULT_VERSION=8.9 -e APPSETTING_WEBSITE_NODE_DEFAULT_VERSION=8.9 -e WEBSITE_SITE_NAME=pltkw3fy19Couchbase -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=pltkw3fy19couchbase.azurewebsites.net -e WEBSITE_INSTANCE_ID=9161ab4fed40c19864f7d0b72200c3c5bb6ee3cb48580283d8c1a6a6eaf9a12c appsvc/node:8.9_1903081107  
+
+2019-06-21 11:59:40.640 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-21 11:59:41.420 INFO  - Initiating warmup request to container pltkw3fy19couchbase_0 for site pltkw3fy19couchbase
+2019-06-21 11:59:44.474 INFO  - Container pltkw3fy19couchbase_0 for site pltkw3fy19couchbase initialized successfully and is ready to serve requests.
+2019-06-21 18:34:18.409 INFO  - Recycling container because of HttpLoggingEnabledChange and httpLoggingEnabled = True
+2019-06-21 18:34:18.419 INFO  - Starting container for site
+2019-06-21 18:34:18.419 INFO  - docker run -d -p 27698:8080 --name pltkw3fy19couchbase_1 -e WEBSITE_NODE_DEFAULT_VERSION=8.9 -e APPSETTING_WEBSITE_NODE_DEFAULT_VERSION=8.9 -e WEBSITE_SITE_NAME=pltkw3fy19Couchbase -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=pltkw3fy19couchbase.azurewebsites.net -e WEBSITE_INSTANCE_ID=9161ab4fed40c19864f7d0b72200c3c5bb6ee3cb48580283d8c1a6a6eaf9a12c -e HTTP_LOGGING_ENABLED=1 appsvc/node:8.9_1903081107  
+
+2019-06-21 18:34:19.347 INFO  - Initiating warmup request to container pltkw3fy19couchbase_1 for site pltkw3fy19couchbase
+2019-06-21 18:34:32.725 INFO  - Container pltkw3fy19couchbase_1 for site pltkw3fy19couchbase initialized successfully and is ready to serve requests.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log stream
+
 Connecting...
 2019-06-21T18:34:27  Welcome, you are now connected to log-streaming service.
 2019-06-21 11:59:40.640 INFO  - Starting container for site
